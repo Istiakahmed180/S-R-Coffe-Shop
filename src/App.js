@@ -1,7 +1,13 @@
+import { RouterProvider } from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
+import Footer from "./Pages/Share/Footer/Footer";
+import Navbar from "./Pages/Share/Navbar/Navbar";
+import router from "./Router/Routers/Routers";
+
 function App() {
   return (
     <div>
-      <h1 className="text-center text-green-600">Coffe Shop</h1>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

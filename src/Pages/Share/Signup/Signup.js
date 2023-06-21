@@ -17,7 +17,7 @@ const Signup = () => {
 						<div>
 							<div className="flex justify-between mb-2">
 								<label for="password" className="text-sm">Create Password</label>
-								<a rel="noopener noreferrer" href="#" className="text-xs hover:underline dark:text-gray-400">Forgot password?</a>
+							
 							</div>
 							<input type="password" name="password" id="password" placeholder="*****" className="w-full px-3 py-2 border rounded-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100" />
 							<label for="password" className="text-sm">Re-enter Password</label>
